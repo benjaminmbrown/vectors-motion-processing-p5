@@ -2,6 +2,8 @@ var Mover = function() {
 	
 		this.position = createVector(random(width),random(height));
 		this.velocity = createVector(random(-2,2),random(-2,2));
+		this.acceleration = createVector(-0.001,0.01);
+		this.topspeed = 10;
 
 		this.display = function(){
 			stroke(0);
@@ -28,6 +30,8 @@ var Mover = function() {
 		}
 
 		this.update = function(){
+			this.velocity.add(this.acceleration);
+			this.velocity.limit(this.topspeed);
 			this.position.add(this.velocity);
 		}
 
