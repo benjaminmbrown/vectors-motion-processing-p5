@@ -8,5 +8,5 @@ Exploring motion and vectors in Processing (p5.js). Created a mover class to be 
 
 <img src="http://zippy.gfycat.com/KaleidoscopicEvilAsianlion.gif"/>
 #A bunch of them accelerating toward mouse
-<img src="http://zippy.gfycat.com/YoungCornyHartebeest.gif"/>
+<img src="http://zippy.gfycat.com/SmoothHarmfulFlee.gif"/>
 
